@@ -1,14 +1,24 @@
+* {
+  background-color: rgb(142, 142, 226);
+}
+
+
 .main-div {
-  background-color: yellow;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 h1{
   color: brown;
 }
+
+h2{
+  color: blue;
+}
+
 
 button {
   background-color: green;
@@ -16,6 +26,6 @@ button {
 }
 
 ul{
-  color: red;
+  color: white;
   font-weight: bold;
 }
